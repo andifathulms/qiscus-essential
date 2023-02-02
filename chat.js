@@ -82,6 +82,7 @@ define([
   }
 
   function CommentItem(comment) {
+    console.log(comment)
     var content = comment.message;
     var type = comment.type;
     var isMe = comment.email === qiscus.user_id;
